@@ -1,4 +1,4 @@
-name: mobi_call
+name: mobifone_support_file
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -32,17 +32,10 @@ dependencies:
 
   socket_io_client: ^1.0.2
   http: ^0.13.1
-  shared_preferences: ^2.0.9
-  cupertino_stackview: ^2.0.0
-  # The following adds the Cupertino Icons font to your application.
+    # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  mobifone_meet:
-    git:
-      url: https://github.com/haonv151168/mobifone_meet.git
-      path: mobifone_meet
-      ref: develop
-
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
